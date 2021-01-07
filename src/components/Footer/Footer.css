@@ -1,0 +1,123 @@
+.footer-container{
+    display: flex;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background: rgb(230, 227, 227);
+    flex-direction: column;
+}
+
+#footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-details p{
+    margin-top: 20px;
+}
+
+#services p,
+#about p{
+    margin-top: 20px;
+}
+
+#address p,
+#address h3{
+    margin-top: 20px;
+}
+
+.footer-icons{
+    margin-top: 20px;
+}
+
+.footer-icons i{
+   margin-left: 20px;
+   font-size: 2rem;
+}
+
+.copyright{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* responsiveness */
+@media screen and (max-width: 480px){
+    .footer-container{
+        display: flex;
+        width: 100%;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        background: rgb(230, 227, 227);
+        flex-direction: column;
+    }
+    
+    #footer{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .logo-details{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .logo-details p{
+        margin-top: 20px;
+    }
+    
+
+    #services,
+    #address,
+    #about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    #services p,
+    #about p{
+        margin-top: 20px;
+    }
+    
+    #address p,
+    #address h3{
+        margin-top: 20px;
+    }
+    
+    .footer-icons{
+        margin-top: 20px;
+    }
+    
+    .footer-icons i{
+       margin-left: 20px;
+       font-size: 2rem;
+    }
+    
+    .copyright{
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+}

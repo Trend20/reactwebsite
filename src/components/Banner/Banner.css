@@ -1,0 +1,57 @@
+.banner{
+    display: flex;
+    width: 80%;
+    background: rgb(245, 245, 245);
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    top: 90%;
+    left: 10%;
+    border: none;
+    border-radius: 10px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#facebook i{
+    color: rgb(16, 110, 153);
+    font-size: 2rem;
+}
+
+#algorithm i{
+    color: rgb(218, 42, 57);
+    font-size: 2rem;
+}
+#map i{
+    color: rgb(113, 188, 223);
+    font-size: 2rem;
+}
+#pinterest i{
+    color: rgb(231, 20, 90);
+    font-size: 2rem;
+}
+
+
+
+@media screen and (max-width:480px){
+    .banner{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background: rgb(245, 245, 245);
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        top: 310%;
+        left: 0%;
+        border: none;
+        border-radius: 10px;
+    }
+}

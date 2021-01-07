@@ -1,0 +1,228 @@
+.contact{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(231, 229, 229);
+}
+
+.contact-description{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.contact-description h3{
+    color: rgb(107, 182, 136);
+    text-transform: uppercase;
+}
+
+.contact-description h1{
+   text-transform: capitalize;
+   margin-top: 10px;
+   width: 70%;
+   font-size: 3rem;
+}
+
+.contact-description p{
+    margin-top: 10px;
+    width: 70%;
+ }
+
+ .contact-description h6{
+    margin-top: 10px;
+    width: 70%;
+    font-size: 1rem;
+    font-weight: 400;
+ }
+
+ .contact-icons{
+     display: flex;
+     width: 30%;
+     font-size: 2rem;
+     justify-content: space-between;
+     margin-top: 30px;
+ }
+
+ .fa-facebook{
+     color: blue;
+ }
+
+ .fa-twitter{
+    color: #40b1ce;
+}
+
+.fa-pinterest{
+    color: #ee4083;
+}
+
+.fa-linkedin{
+    color: #399adb;
+}
+
+.fa-instagram{
+    color: #df4eba;
+}
+
+.contact-form{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    background: rgb(62, 141, 92);
+    width: 80%;
+    padding: 60px;
+    color: #fff;
+}
+
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group label{
+    display: flex;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.form-group input{
+    margin-top: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group input::placeholder{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form-group textarea{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+#form button{
+    margin-top: 30px;
+    width: 40%;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background: rgb(107, 182, 136);
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+
+@media screen and (max-width: 480px){
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+        background: rgb(231, 229, 229);
+    }
+    
+    .contact-description{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact-description h3{
+        color: rgb(107, 182, 136);
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .contact-description h1{
+       text-transform: capitalize;
+       margin-top: 10px;
+       width: 100%;
+       font-size: 2.5rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+    
+    .contact-description p{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+    
+     .contact-description h6{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 400;
+     }
+    
+     .contact-icons{
+         display: flex;
+         width: 90%;
+         font-size: 2rem;
+         justify-content: space-between;
+         margin-top: 30px;
+     }
+    
+    .contact-form{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    #form{
+        display: flex;
+        flex-direction: column;
+        background: rgb(62, 141, 92);
+        width: 90%;
+        padding: 60px;
+        color: #fff;
+    }
+    
+    
+    #form button{
+        margin-top: 30px;
+        width: 50%;
+        padding: 12px;
+        border: none;
+        border-radius: 50px;
+        color: #fff;
+        background: rgb(107, 182, 136);
+        font-weight: 600;
+        cursor: pointer;
+        outline: none;
+    }    
+}

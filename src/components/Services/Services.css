@@ -1,0 +1,283 @@
+.services{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(228, 223, 223);
+}
+
+.services-cards{
+    display: flex;
+    width: 50%;
+}
+
+.row1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    height: auto;
+    margin-top: 20px;
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+}
+
+.card >i{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    display: flex;
+    color: rgb(107, 182, 136);
+    scale: (1, 2);
+}
+
+.card h3{
+    margin-top: 30px;
+    display: flex;
+    opacity: 0.8;
+}
+
+.card p{
+    margin-top: 30px;
+    line-height: 1.6;
+    opacity: 0.6;
+}
+
+.card a{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.card a i{
+    font-size: 1.2rem;
+    margin-top: 0px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20px;
+}
+
+#ui-card{
+    background: rgb(107, 182, 136);
+    color: #fff;
+}
+
+#ui-card >i{
+    color: #fff;
+}
+
+
+
+.service-text{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.service-text h3{
+    color: rgb(108, 179, 135);
+    text-transform: uppercase;
+    display: flex;
+}
+
+.service-text h1{
+    display: flex;
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+.service-text h4{
+    display: flex;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.service-text p{
+    display: flex;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    opacity: 0.6;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.service-text a{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    padding: 13px;
+    color: rgb(63, 133, 90);
+    background: rgb(204, 200, 200);
+}
+
+.service-text a i{
+    color: #fff;
+    background: rgb(108, 179, 135);
+}
+
+
+
+/* responsiveness */
+
+@media screen and (max-width: 480px){
+    .services{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding-left: 0px;
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: rgb(228, 223, 223);
+    }
+    
+    .services-cards{
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .row1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 10px;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: #fff;
+        height: auto;
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        border: none;
+        margin-left: 5px;
+    }
+    .card h3{
+        margin-top: 30px;
+        display: flex;
+        opacity: 0.8;
+    }
+    
+    .card p{
+        margin-top: 30px;
+        line-height: 1.6;
+        opacity: 0.6;
+    }
+    
+    .card a{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        width: 80%;
+        border: none;
+        border-radius: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .card a{
+        padding: 20px;
+    }
+    .card a i{
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+    
+    .row2{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    
+    
+    .service-text{
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    
+    .service-text h3{
+        color: rgb(108, 179, 135);
+        text-transform: uppercase;
+        display: flex;
+    }
+    
+    .service-text h1{
+        display: flex;
+        margin-top: 20px;
+        font-size: 2.5rem;
+    }
+    
+    .service-text h4{
+        display: flex;
+        margin-top: 20px;
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    
+    .service-text p{
+        display: flex;
+        margin-top: 20px;
+        font-size: 1.5rem;
+        opacity: 0.6;
+        font-weight: 300;
+        line-height: 1.6;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .service-text a{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 50px;
+        padding: 13px;
+        color: rgb(63, 133, 90);
+        background: rgb(204, 200, 200);
+    }
+    
+    .service-text a i{
+        color: #fff;
+        background: rgb(108, 179, 135);
+    }
+}

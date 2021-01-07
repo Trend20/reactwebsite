@@ -1,0 +1,149 @@
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.active{
+    background-color: rgb(65, 141, 94);
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.fa-bars{
+    font-size: 2rem;
+    left: 96%;
+    top: 10%;
+    position: absolute;
+    display: none;
+}
+
+
+@media screen and (max-width: 480px){
+    header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .logo{
+        width: 50%;
+        justify-content: flex-start;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .logo img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        margin-top: -50px;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        flex-direction: column;
+        position: absolute;
+        left: -10%;
+        top: 10%;
+        display: none;
+    }
+    
+    
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    nav ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+    
+    
+    nav ul li a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .active{
+        background-color: rgb(65, 141, 94);
+        width: 50%;
+        padding: 10px;
+        border: none;
+        border-radius: 50px;
+        color: #fff;
+    }
+    
+    .fa-bars{
+        font-size: 2rem;
+        left: 90%;
+        top: 0%;
+        position: absolute;
+        display: block;
+    }
+}
